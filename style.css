@@ -1,0 +1,100 @@
+/* Desktop View */
+/* Standard setup for media queries */
+@media (max-width: 1480px) {
+    body {
+        color: lemonchiffon;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwmCFVwHtHi8yrBfF8YQW8fgPx579WzikSmzVA4GZ&s');
+    }
+
+    .cone {
+        border: solid yellow;
+        margin-right: 100px;
+        background-image: url('https://previews.123rf.com/images/jalcaraz/jalcaraz1606/jalcaraz160600001/59920480-strawberry-ice-cream-cone-on-background.jpg');
+    }
+
+    .products {
+        border: solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-left: 47.5%;
+        background-image: url('https://sugarandsparrow.s3.us-west-2.amazonaws.com/flour/wp-content/uploads/2022/06/18202010/Strawberry-Shortcake-Layer-Cake-Header.jpeg');
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Ipad -Midscreen */
+@media (max-width: 1080px) {
+    body {
+        color: lightskyblue;
+        background-image: url('https://i.pinimg.com/originals/6d/15/08/6d15080f44c7bd3eddda557643d94802.jpg');
+    }
+
+    .cone {
+        border: solid blue;
+        margin-right: 100px;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Er2q0BBVSFLblC5sMZ5iy9b1fOzXfldqA0OJ9lbWBnGe2eP5BPQwLvwhItHgfdPAtx4&usqp=CAU');
+    }
+
+    .products {
+        border: solid blue;
+        display: flex;
+        justify-content: center;
+        margin-left: 47.5%;
+        background-image: url('https://www.iheartnaptime.net/wp-content/uploads/2022/05/I-Heart-Naptime-homemade-vanilla-cake.jpg');
+    }
+}
+
+/* ---------------------------------------- */
+
+/* Mobile View */
+@media (max-width: 680px) {
+    body {
+        color: burlywood;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5w3OBfsQhAFIakJO5WZJEJZ2njELL_wemhpHc6NlhZdmyX_lhJiJRLBiRabFJ50Ee5kc&usqp=CAU');
+
+    }
+
+    .cone {
+        border: solid red;
+        margin-right: 100px;
+        background-image: url('https://i.pinimg.com/originals/91/1a/4b/911a4b602bcdf29a7395816ef6c50296.jpg');
+
+    }
+
+    .products {
+        border: solid red;
+        display: flex;
+        justify-content: center;
+        margin-left: 47.5%;
+        background-image: url('https://www.foodandwine.com/thmb/JB9N0qA141JpFZVJ-EBxCQ9kJx8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/moms-chocolate-cake-XL-RECIPE0918-10dde1dcd79b47b9876cda8812f11ad6.jpg');
+    }
+}
+
+/* ---------------------------------------- */
+.mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cone,
+.products {
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    background-size: cover;
+}
+
+.shop {
+    height: 45px;
+    border-radius: 22.5px;
+    margin-top: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+
+p {
+    border: solid black;
+    text-align: center;
+}
